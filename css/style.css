@@ -3,6 +3,7 @@
 
 * {
     box-sizing: border-box;
+    transition: all .1s ease-in;
 }
 
 body {
@@ -55,6 +56,9 @@ body {
 }
 .full{
     width: 100%;
+}
+.wi{
+    font-size: 22px;
 }
 .bg_lisbon {
     background-color: var(--bg-lisbon);
