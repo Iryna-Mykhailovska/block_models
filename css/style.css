@@ -65,6 +65,7 @@ font-size: 22px;
 }
 .wi{
     font-size: 38px;
+    vertical-align:middle;
     /* color: rgb(255, 255, 255,0.7); */
 }
 
@@ -115,7 +116,7 @@ font-size: 22px;
 }
 
 .city_weather {
-    
+    vertical-align: middle;
     margin-top: 10px;
 }
 
