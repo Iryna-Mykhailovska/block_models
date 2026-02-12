@@ -30,6 +30,7 @@ body {
 .table_weather{
    /* height: 592px; */
     border: 2px solid var(--container-border-color);
+    background-color: #fff;
 }
 .city__list {
     margin: 0;
