@@ -51,15 +51,23 @@ body {
 .city__list_item:hover{
     opacity: 1;
 }
+/* .city__list_item:hover+.wi{
+    color: rgb(255, 255, 255);
+} */
 .half {
     width: 50%;
 }
 .full{
     width: 100%;
 }
-.wi{
-    font-size: 22px;
+header>.wi{
+font-size: 22px;
 }
+.wi{
+    font-size: 38px;
+    /* color: rgb(255, 255, 255,0.7); */
+}
+
 .bg_lisbon {
     background-color: var(--bg-lisbon);
     /* border-bottom: none; */
