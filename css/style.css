@@ -1,12 +1,126 @@
 @import url(./reset.css);
 @import url(./var.css);
-.main {
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    cursor: url('../img/cursor.png'), auto;
     border: 25px solid var(--main-border-color);
     background-color: var(--main-bg-color);
-    width: 100%;
+    height: 100vh;
+    font-family: var(--font-family);
+    color: var(--container-border-color);
+    
 }
 
 .container {
-    border: 2px solid var(--container-border-color);
     width: var(--width-container);
+    margin: 0 auto;
+}
+
+.title {
+    font-weight: 400;
+    font-size: 21px;
+    margin: 35px 0;
+    display: inline-block;
+    vertical-align: middle;
+}
+.table_weather{
+   /* height: 592px; */
+    border: 2px solid var(--container-border-color);
+}
+.city__list {
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+}
+
+.city__list_item {
+    width: 25%;
+    border: 2px solid var(--container-border-color);
+    display: inline-block;
+    font-size: 22px;
+    text-align: center;
+    padding: 26px 0;
+    opacity: 0.7;
+}
+.city__list_item:hover{
+    opacity: 1;
+}
+.half {
+    width: 50%;
+}
+.full{
+    width: 100%;
+}
+.bg_lisbon {
+    background-color: var(--bg-lisbon);
+    /* border-bottom: none; */
+}
+
+.bg_paris {
+    background-color: var(--bg-paris);
+    /* border-left: none;
+    border-right: none; */
+}
+
+.bg_belgrade {
+    background-color: var(--bg-belgrade);
+    /* border-bottom: none; */
+}
+
+.bg_venice {
+    background-color: var(--bg-venice);
+}
+
+.bg_tel_avive {
+    background-color: var(--bg-tel-avive);
+}
+
+.bg_cair {
+    background-color: var(--bg-cair);
+}
+
+.bg_new_york {
+    background-color: var(--bg-new-york);
+}
+.bg_new_delhi{
+    background-color: var(--bg-new-delhi);
+}
+.bg_san_francisco {
+    background-color: var(--bg-san-francisco);
+}
+
+.bg_tokyo {
+    background-color: var(--bg-tokyo);
+}
+
+.bg_sydney {
+    background-color: var(--bg-sydney);
+}
+
+.city_weather {
+    
+    margin-top: 10px;
+}
+
+.temp {
+    padding-right: 10px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+svg {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.footer_text {
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+    margin-top: 35px;
+    margin-bottom: 119px;
 }

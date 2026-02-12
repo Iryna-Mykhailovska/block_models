@@ -1,8 +1,20 @@
-:root{
-    --main-border-color:#2B81AC;
+:root {
+    --main-border-color: #2B81AC;
     --main-bg-color: #3399CC;
+    --font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    --second-family: "Weather Icons", sans-serif;
+    --width-container: 1170px;
+    --container-border-color: #ffffff;
+    --bg-lisbon:#3399CC;
+    --bg-paris:#33CCCC;
+    --bg-tokyo:#339966;
+    --bg-sydney:#666699;
+    --bg-new-delhi:#669999;
+    --bg-belgrade:#996699;
+    --bg-new-york:#99CC99;
+    --bg-venice:#C24747;
+    --bg-san-francisco:#CC6699;
+    --bg-tel-avive:#E2674A;
+    --bg-cair:#FFCC66;
 
-    --width-container:1170px;
-    --container-border-color:#fff;
-    
 }
